@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Coda+Caption:wght@800&family=Orelega+One&family=Roboto+Mono:wght@200&display=swap');
+
+
+/*    Images from Unsplash
+
+        Mark Basarab (bear image): url(https://unsplash.com/photos/y421kXlUOQk),
+        Philipp Pilz (wolf image): url(https://unsplash.com/photos/QZ2EQuPpQJs),
+        Keyang Zheng (doe image): url(https://unsplash.com/photos/tY4Op7DdBrc),
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Coda Caption', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card {
+    width: 18rem;
+    margin: 10px;
+}
+
+.card-title {
+    font-family: 'Orelega One', cursive;
+}
+
+.card-text {
+    font-family: 'Architects Daughter', cursive;
+}
+
+img {
+    height: 200px;
+}
+
+
+main {
+    background: linear-gradient(180deg,#81df343a,#30e95e);
+}
+
+div {
+    background-color: #fff;
+}
+
+
+.btn {
+    border: 2px #48ff00 solid;
+    
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink { 50% { border-color:#fff ; }  }
+
+
+
+@media (max-width: 768px) { 
+    .card {
+        
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .card-body {
+        padding: 5px;
+    }
+
+    #last{
+        margin: 5px;
+    }
+ }
